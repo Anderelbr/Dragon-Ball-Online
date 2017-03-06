@@ -1,0 +1,17 @@
+{
+    "Game": {
+	"Server 0": {
+           "ServerIP": "127.0.0.1",
+           "ServerPort": "30002",
+           "MaxClients": "10",
+	   "ServerName": "Private Server"
+	}
+    },
+    "DataBase": {
+	"DBHost": "tcp://127.0.0.1:3306",
+	"DBUsername": "root",
+	"DBPassword": "",
+	"DBName": "dbor"   	 
+   }
+
+}
