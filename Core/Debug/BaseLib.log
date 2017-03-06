@@ -1,0 +1,14 @@
+﻿Compilación iniciada a las 25/02/2017 17:32:13.
+     1>Proyecto "C:\Users\Anderson\Downloads\ServerDev\Servers\BaseLib\BaseLib.vcxproj" en el nodo 3 (Rebuild destinos).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\NtlSystem /I..\NtlThread /I..\NtlNetwork /I..\Shared /I..\Util /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _DEVEL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\BaseLib.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Anderson\Downloads\ServerDev\Debug\lib\BaseLib.lib" /NOLOGO Debug\stdafx.obj
+         BaseLib.vcxproj -> C:\Users\Anderson\Downloads\ServerDev\Debug\lib\BaseLib.lib
+     1>Compilación del proyecto terminada "C:\Users\Anderson\Downloads\ServerDev\Servers\BaseLib\BaseLib.vcxproj" (Rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.60

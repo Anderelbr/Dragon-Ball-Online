@@ -1,0 +1,45 @@
+﻿Compilación iniciada a las 01/03/2017 1:22:44.
+     1>Proyecto "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\Core\Core.vcxproj" en el nodo 2 (Build destinos).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (BaseLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\GameServer /I..\NtlSfx /I..\NtlSystem /I..\NtlThread /I..\NtlNetwork /I..\NtlUtil /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _DEVEL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Core.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CPlayer.cpp PlayerInventory.cpp
+         CPlayer.cpp
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\ntlnetwork\ntlsockaddr.h(43): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(2238) : vea la declaración de 'gethostbyname'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\ntlnetwork\ntlsockaddr.h(46): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : vea la declaración de 'inet_addr'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\ntlnetwork\ntlsockaddr.h(81): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : vea la declaración de 'inet_addr'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\ntlnetwork\ntlsockaddr.h(138): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : vea la declaración de 'inet_ntoa'
+     1>c:\program files (x86)\windows kits\8.1\include\um\mysql\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'sql::SQLString'
+     1>c:\program files (x86)\windows kits\8.1\include\um\mysql\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'sql::SQLException'
+     1>c:\program files (x86)\windows kits\8.1\include\um\mysql\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option' : class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' necesita tener una interfaz DLL para que la utilicen los clientes de struct 'sql::SQLUnsupportedOptionException'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\mysql\mysql_connection.h(175): warning C4251: 'sql::mysql::MySQL_Connection::proxy' : class 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'sql::mysql::MySQL_Connection'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\mysql\mysql_connection.h(179): warning C4251: 'sql::mysql::MySQL_Connection::service' : class 'boost::scoped_ptr<sql::mysql::MySQL_Statement>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'sql::mysql::MySQL_Connection'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\playersmanager.h(47): warning C4150: eliminación de puntero a tipo 'CPlayer' incompleto; no se ha llamado a un destructor
+                 c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\playersmanager.h(4) : vea la declaración de 'CPlayer'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\skills.h(34): warning C4003: no hay suficientes parámetros reales para la macro 'UNION'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\skills.h(38): warning C4003: no hay suficientes parámetros reales para la macro 'SAMPLE_PACKET'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\skills.h(42): warning C4003: no hay suficientes parámetros reales para la macro 'SAMPLE_PACKET'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\skills.h(51): warning C4003: no hay suficientes parámetros reales para la macro 'SAMPLE_PACKET'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\gamepackets.h(76): warning C4003: no hay suficientes parámetros reales para la macro 'UNION'
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\cplayer.cpp(62): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\cplayer.cpp(63): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\cplayer.cpp(64): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+     1>c:\users\anderson\desktop\dragon ball online\ntlprivateserver\servers\core\cplayer.cpp(65): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+         Generando código...
+         Omitiendo... (no se detectaron cambios relevantes)
+         PlayerInventory.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\lib\Core.lib" /NOLOGO Debug\CPlayer.obj
+         Debug\DataBase.obj
+         Debug\PlayerInventory.obj
+         Debug\stdafx.obj
+         Core.vcxproj -> C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\lib\Core.lib
+     1>Compilación del proyecto terminada "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\Core\Core.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.25

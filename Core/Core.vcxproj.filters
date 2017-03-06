@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BasicTypes">
+      <UniqueIdentifier>{1df0c2a3-40e1-47ab-b5e7-c61034a5d968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet">
+      <UniqueIdentifier>{c20f21c2-4d39-46fd-8478-c55e2648d7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet\Game">
+      <UniqueIdentifier>{bb4569cc-4bb5-4946-992f-bf7ac839f1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Opcodes">
+      <UniqueIdentifier>{e8457b3a-1bc6-418e-8fa9-91e38c77129a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{dd6baca2-382d-43d3-804f-e9995b52a6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileReader">
+      <UniqueIdentifier>{aae1148b-d3fc-4628-a154-284fdf26ff8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet\Game\PCTables">
+      <UniqueIdentifier>{1f6dc6bc-d0af-43e4-bdcf-d1c05700b1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet\Game\Item">
+      <UniqueIdentifier>{2e1e9f03-7851-4565-9011-98fb5253b228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet\Game\Guild">
+      <UniqueIdentifier>{d2467093-c1ee-4fd9-809e-e607d8a7f98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet\Game\Avatar">
+      <UniqueIdentifier>{ca152627-4f12-467f-bd39-e9f6a933dcdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataBase">
+      <UniqueIdentifier>{3a9bfa55-5aee-482b-91b5-9963dff83b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataBase">
+      <UniqueIdentifier>{ed84a983-07e8-4df0-ba08-b1e283635499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{ccab289d-4541-4449-9b99-34c944de301b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{67276a36-6647-4f31-b9c6-563c51797977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Session">
+      <UniqueIdentifier>{2852b005-f33f-47c5-a78b-407c014ebc5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>Source Files\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventory.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTypes.h">
+      <Filter>Header Files\BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketCommon.h">
+      <Filter>Header Files\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Packets.h">
+      <Filter>Header Files\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePackets.h">
+      <Filter>Header Files\Packet\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Opcodes.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultCodes.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerStatus.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportType.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Races.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectType.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRuleType.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarStates.h">
+      <Filter>Header Files\Opcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="PCTables.h">
+      <Filter>Header Files\Packet\Game\PCTables</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionType.h">
+      <Filter>Header Files\BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Header Files\BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="sVector3.h">
+      <Filter>Header Files\BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\BasicTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Packet\Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Guild.h">
+      <Filter>Header Files\Packet\Game\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Header Files\Packet\Game\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarState.h">
+      <Filter>Header Files\Packet\Game\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Skills.h">
+      <Filter>Header Files\Packet\Game\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>Header Files\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TablesReader.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayersManager.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventory.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CSessionData.h">
+      <Filter>Header Files\Session</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
