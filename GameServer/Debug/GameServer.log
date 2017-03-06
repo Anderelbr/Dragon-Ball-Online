@@ -1,0 +1,31 @@
+﻿Compilación iniciada a las 01/03/2017 1:26:28.
+     1>Proyecto "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\GameServer\GameServer.vcxproj" en el nodo 2 (Build destinos).
+     1>El proyecto "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\GameServer\GameServer.vcxproj" (1) está compilando "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlSfx\NtlSfx.vcxproj" (5:3) en el nodo 1 (GetResolvedLinkLibs destinos).
+     5>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>El proyecto "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\GameServer\GameServer.vcxproj" (1) está compilando "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlNetwork\NtlNetwork.vcxproj" (2:3) en el nodo 2 (GetResolvedLinkLibs destinos).
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>El proyecto "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\GameServer\GameServer.vcxproj" (1) está compilando "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlSystem\NtlSystem.vcxproj" (3:3) en el nodo 3 (GetResolvedLinkLibs destinos).
+     3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     3>Compilación del proyecto terminada "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlSystem\NtlSystem.vcxproj" (GetResolvedLinkLibs destinos).
+     1>El proyecto "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\GameServer\GameServer.vcxproj" (1) está compilando "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlThread\NtlThread.vcxproj" (4:3) en el nodo 4 (GetResolvedLinkLibs destinos).
+     4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     4>Compilación del proyecto terminada "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlThread\NtlThread.vcxproj" (GetResolvedLinkLibs destinos).
+     2>Compilación del proyecto terminada "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlNetwork\NtlNetwork.vcxproj" (GetResolvedLinkLibs destinos).
+     5>Compilación del proyecto terminada "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\NtlSfx\NtlSfx.vcxproj" (GetResolvedLinkLibs destinos).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\GameServer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\NtlDatabase\mysql\boost\stage\lib Ws2_32.lib winmm.lib ..\..\Debug\lib\mysqlcppconn.lib ..\..\Debug\lib\mysqlclient.lib "..\..\Debug\lib\mysqlcppconn-static.lib" ..\..\Debug\lib\Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\GameServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\GameServer.lib" /MACHINE:X86 /SAFESEH Debug\CGameSession.obj
+         Debug\ClientSession.obj
+         Debug\CGameServer.obj
+         Debug\main.obj
+         Debug\stdafx.obj
+         "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\lib\NtlSystem.lib"
+         "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\lib\NtlThread.lib"
+         "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\lib\NtlNetwork.lib"
+         "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\lib\NtlSfx.lib"
+     1>CGameSession.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/OPT:LBR'
+         GameServer.vcxproj -> C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Debug\GameServer.exe
+     1>Compilación del proyecto terminada "C:\Users\Anderson\Desktop\Dragon Ball Online\NtlPrivateServer\Servers\GameServer\GameServer.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.31
